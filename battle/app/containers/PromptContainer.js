@@ -29,7 +29,7 @@ var PromptContainer = React.createClass({
           playerTwo: this.state.username
         }
       })
-    } else {
+    } else {0
       this.context.router.push('/playerTwo/' + username);
     }
   },
